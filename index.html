@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sk Ali Hussain | Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="loading-screen">
+        <div class="loader"></div>
+    </div>
+
+    <div class="parallax-wrapper">
+        <header>
+            <div class="logo">
+                <span>Sk Ali Hussain</span>
+            </div>
+            <nav>
+                <ul class="nav-links">
+                    <li><a href="#home" class="active">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+                <div class="theme-toggle">
+                    <i class="fas fa-moon"></i>
+                </div>
+                <div class="hamburger">
+                    <div class="line"></div>
+                    <div class="line"></div>
+                    <div class="line"></div>
+                </div>
+            </nav>
+        </header>
+
+        <section id="home" class="hero-section">
+            <div class="hero-content">
+                <h1 class="glitch-text" data-text="Sk Ali Hussain">Sk Ali Hussain</h1>
+                <p class="typing-text">Web Developer</p>
+                <div class="cta-buttons">
+                    <a href="#projects" class="btn primary-btn">View Projects</a>
+                    <a href="resume.pdf" download class="btn secondary-btn">Download Resume</a>
+                </div>
+            </div>
+            <div class="hero-3d-element">
+                <div class="cube">
+                    <div class="face front"></div>
+                    <div class="face back"></div>
+                    <div class="face right"></div>
+                    <div class="face left"></div>
+                    <div class="face top"></div>
+                    <div class="face bottom"></div>
+                </div>
+            </div>
+        </section>
+
+        <section id="about" class="about-section">
+            <div class="section-header">
+                <h2>About Me</h2>
+                <div class="underline"></div>
+            </div>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>I'm Sk Ali Hussain, a 2nd-year B.Tech CSE student who's deeply passionate about <strong>Web Development</strong>. My goal is to build beautiful and functional web applications that deliver exceptional user experiences.</p>
+                    <p>I love learning, building, and sharing knowledge through hands-on projects and collaborative work.</p>
+                    <div class="objective">
+                        <h3>Objective</h3>
+                        <p>To showcase my technical skills and web development projects in a professional and modern portfolio website that reflects both my personal brand and career goals.</p>
+                    </div>
+                </div>
+                <div class="about-image">
+                    <div class="floating-image">
+                        <!-- Profile image should be placed here -->
+                        <img src="assets/profile.jpg" alt="Sk Ali Hussain" class="profile-img">
+                        <!-- Fallback if image doesn't load -->
+                        <div class="profile-placeholder">
+                            <i class="fas fa-user"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="skills" class="skills-section">
+            <div class="section-header">
+                <h2>Technical Skills</h2>
+                <div class="underline"></div>
+            </div>
+            <div class="skills-container">
+                <div class="skills-category">
+                    <h3>Web Development</h3>
+                    <div class="skills-grid">
+                        <div class="skill-card" data-skill="HTML/CSS/JS">
+                            <div class="skill-icon"><i class="fab fa-html5"></i></div>
+                            <span>HTML, CSS, JavaScript</span>
+                        </div>
+                        <div class="skill-card" data-skill="React">
+                            <div class="skill-icon"><i class="fab fa-react"></i></div>
+                            <span>React, Firebase</span>
+                        </div>
+                        <div class="skill-card" data-skill="Node.js">
+                            <div class="skill-icon"><i class="fab fa-node-js"></i></div>
+                            <span>Node.js, Express.js</span>
+                        </div>
+                        <div class="skill-card" data-skill="PHP">
+                            <div class="skill-icon"><i class="fab fa-php"></i></div>
+                            <span>PHP, Laravel</span>
+                        </div>
+                        <div class="skill-card" data-skill="Database">
+                            <div class="skill-icon"><i class="fas fa-database"></i></div>
+                            <span>MySQL, MongoDB</span>
+                        </div>
+                        <div class="skill-card" data-skill="UI/UX">
+                            <div class="skill-icon"><i class="fas fa-palette"></i></div>
+                            <span>UI/UX Design</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="projects" class="projects-section">
+            <div class="section-header">
+                <h2>Projects</h2>
+                <div class="underline"></div>
+            </div>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <div class="project-content">
+                        <h3>Flip Clock</h3>
+                        <p class="project-tech">HTML, CSS, JavaScript</p>
+                        <p class="project-description">A visually aesthetic flip clock with a real-time dynamic display. Built to practice DOM manipulation and CSS animations.</p>
+                        <div class="project-links">
+                            <a href="https://github.com/sk-ali-hussain/flip-clock" target="_blank" class="project-link">
+                                <i class="fab fa-github"></i> View Repository
+                            </a>
+                        </div>
+                    </div>
+                    <div class="project-image">
+                        <img src="assets/flip-clock.jpg" alt="Flip Clock Project" class="project-img">
+                        <div class="image-placeholder">
+                            <i class="far fa-clock"></i>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="project-card">
+                    <div class="project-content">
+                        <h3>Pomodoro Timer</h3>
+                        <p class="project-tech">HTML, CSS, JavaScript</p>
+                        <p class="project-description">A simple productivity timer implementing the Pomodoro Technique, with customizable intervals and a clean, minimal design.</p>
+                        <div class="project-links">
+                            <a href="https://github.com/sk-ali-hussain/pomodoro-timer" target="_blank" class="project-link">
+                                <i class="fab fa-github"></i> View Repository
+                            </a>
+                        </div>
+                    </div>
+                    <div class="project-image">
+                        <img src="assets/pomodoro.jpg" alt="Pomodoro Timer Project" class="project-img">
+                        <div class="image-placeholder">
+                            <i class="fas fa-hourglass-half"></i>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="project-card">
+                    <div class="project-content">
+                        <h3>Weather Dashboard</h3>
+                        <p class="project-tech">HTML, CSS, JavaScript, API</p>
+                        <p class="project-description">An interactive weather app that fetches real-time weather data from OpenWeather API, displaying current conditions and forecasts with a clean UI.</p>
+                        <div class="project-links">
+                            <a href="#" class="project-link coming-soon">
+                                <i class="fab fa-github"></i> Coming Soon
+                            </a>
+                        </div>
+                    </div>
+                    <div class="project-image">
+                        <img src="assets/weather.jpg" alt="Weather Dashboard Project" class="project-img">
+                        <div class="image-placeholder">
+                            <i class="fas fa-cloud-sun"></i>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="project-card">
+                    <div class="project-content">
+                        <h3>Firebase Auth App</h3>
+                        <p class="project-tech">React, Firebase</p>
+                        <p class="project-description">A full-stack authentication system with signup/login using Firebase Auth and Firestore. Great for learning OAuth and secure login systems.</p>
+                        <div class="project-links">
+                            <a href="#" class="project-link coming-soon">
+                                <i class="fab fa-github"></i> Coming Soon
+                            </a>
+                        </div>
+                    </div>
+                    <div class="project-image">
+                        <img src="assets/auth-app.jpg" alt="Firebase Auth App" class="project-img">
+                        <div class="image-placeholder">
+                            <i class="fas fa-lock"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="contact-section">
+            <div class="section-header">
+                <h2>Contact Me</h2>
+                <div class="underline"></div>
+            </div>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <i class="fas fa-envelope"></i>
+                        <a href="mailto:spidey4858@gmail.com">spidey4858@gmail.com</a>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fab fa-linkedin"></i>
+                        <a href="https://www.linkedin.com/in/sk-ali-hussain-3705972aa/" target="_blank">Sk Ali Hussain</a>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fab fa-twitter"></i>
+                        <a href="https://x.com/thor1653e?s=21" target="_blank">@thor1653e</a>
+                    </div>
+                </div>
+                <div class="contact-form">
+                    <form id="contactForm">
+                        <div class="form-group">
+                            <input type="text" id="name" placeholder="Your Name" required>
+                            <label for="name">Name</label>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" id="email" placeholder="Your Email" required>
+                            <label for="email">Email</label>
+                        </div>
+                        <div class="form-group">
+                            <textarea id="message" placeholder="Your Message" required></textarea>
+                            <label for="message">Message</label>
+                        </div>
+                        <button type="submit" class="btn submit-btn">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+
+        <footer>
+            <div class="footer-content">
+                <div class="footer-text">
+                    <p>&copy; 2023 Sk Ali Hussain. All rights reserved.</p>
+                </div>
+                <div class="social-links">
+                    <a href="mailto:spidey4858@gmail.com" aria-label="Email"><i class="fas fa-envelope"></i></a>
+                    <a href="https://www.linkedin.com/in/sk-ali-hussain-3705972aa/" target="_blank" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
+                    <a href="https://x.com/thor1653e?s=21" target="_blank" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+                    <a href="https://github.com/sk-ali-hussain" target="_blank" aria-label="GitHub"><i class="fab fa-github"></i></a>
+                </div>
+            </div>
+        </footer>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/ScrollTrigger.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html> 
